@@ -1,0 +1,199 @@
+[
+    {
+      "name": "Aloe Vera",
+      "scientific_name": "Aloe barbadensis miller",
+      "image": "https://images.unsplash.com/photo-1596547609652-9cf5d8d76921?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWxvZSUyMHZlcmF8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Aloe Vera thrives in bright, indirect light and needs well-draining soil. It is a low-maintenance plant and can tolerate dry conditions.",
+      "watering_instructions": "Water sparingly, allowing the soil to dry out between waterings. Water only once every 3 weeks during winter."
+    },
+    {
+      "name": "Spider Plant",
+      "scientific_name": "Chlorophytum comosum",
+      "image": "https://images.unsplash.com/photo-1610551724444-5fb527b5ad20?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3BpZGVyJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Spider plants prefer moderate to bright light and are easy to care for. They can tolerate occasional neglect.",
+      "watering_instructions": "Water thoroughly but allow the soil to dry out between waterings. Water once every week during the warmer months."
+    },
+    {
+      "name": "Snake Plant",
+      "scientific_name": "Sansevieria trifasciata",
+      "image": "https://images.unsplash.com/photo-1616961162823-aeba510620c6?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNuYWtlJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Snake plants can thrive in low light and are quite resilient. They require little maintenance and can tolerate neglect.",
+      "watering_instructions": "Water once every 2-3 weeks, allowing the soil to dry out completely between waterings."
+    },
+    {
+      "name": "Peace Lily",
+      "scientific_name": "Spathiphyllum wallisii",
+      "image": "https://plus.unsplash.com/premium_photo-1676117273363-2b13dbbc5385?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVhY2UlMjBsaWx5JTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Peace Lilies thrive in low to medium light and have attractive white blooms. They are easy to maintain and are great indoor plants.",
+      "watering_instructions": "Water consistently to keep the soil moist but not soggy. Water once a week or when the soil feels dry."
+    },
+    {
+      "name": "Pothos",
+      "scientific_name": "Epipremnum aureum",
+      "image": "https://images.unsplash.com/photo-1596724878582-76f1a8fdc24f?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG90aG9zJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Pothos is a low-maintenance plant that can grow in a variety of conditions, including low light. It’s perfect for beginners.",
+      "watering_instructions": "Water once a week or when the top of the soil feels dry."
+    },
+    {
+      "name": "ZZ Plant",
+      "scientific_name": "Zamioculcas zamiifolia",
+      "image": "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8WlolMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "basic_care": "ZZ Plants thrive in low light and are known for their ability to survive with minimal care.",
+      "watering_instructions": "Water every 2-3 weeks, allowing the soil to dry out completely between waterings."
+    },
+    {
+      "name": "Monstera",
+      "scientific_name": "Monstera deliciosa",
+      "image": "https://images.unsplash.com/photo-1653404809389-f370ea4310dd?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TW9uc3RlcmElMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "basic_care": "Monstera plants prefer bright, indirect light and are well-known for their dramatic, split leaves.",
+      "watering_instructions": "Water when the top of the soil feels dry, about once a week. Water more often in the growing season."
+    },
+    {
+      "name": "Ficus",
+      "scientific_name": "Ficus elastica",
+      "image": "https://images.unsplash.com/photo-1596547612397-1432a7a7d37d?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEZpY3VzJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Ficus are known for their large, glossy leaves and prefer bright, indirect light. They are relatively easy to care for.",
+      "watering_instructions": "Water when the top inch of soil feels dry. Water thoroughly but allow excess water to drain."
+    },
+    {
+      "name": "Cactus",
+      "scientific_name": "Cactaceae",
+      "image": "https://images.unsplash.com/photo-1586275381277-ef645628e280?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fENhY3R1cyUyMHBsYW50fGVufDB8fDB8fHww",
+      "basic_care": "Cacti are hardy plants that prefer bright, direct sunlight and minimal watering.",
+      "watering_instructions": "Water once every 2-3 weeks, allowing the soil to dry out completely before watering again."
+    },
+    {
+      "name": "Bamboo Palm",
+      "scientific_name": "Chamaedorea seifrizii",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgeturpet.com%2Fwp-content%2Fuploads%2F2021%2F01%2FBamboo-Palm-1.jpg&f=1&ipt=d74dceda87ca38e203fb7f381de6c5b72718e5eef4895a79b17972b1b704194b",
+      "basic_care": "Bamboo palms are easy to grow and thrive in bright, indirect light with regular misting.",
+      "watering_instructions": "Water every week, keeping the soil moist but not soggy."
+    },
+    {
+      "name": "English Ivy",
+      "scientific_name": "Hedera helix",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.popsugar-assets.com%2Ffiles%2Fthumbor%2FcbGqjyAjSV4Wvst9s4qzXLvNOXc%2Ffit-in%2F1024x1024%2Ffilters%3Aformat_auto-!!-%3Astrip_icc-!!-%2F2020%2F06%2F24%2F718%2Fn%2F1922794%2Faf22bda55ef37bd4f3a2b5.43409580_81_nwQK2buL.%2Fi%2FEnglish-Ivy-Plant.jpg&f=1&ipt=6ca82c4761982e172ac5f7602f618d12884dc8d613177569e5b2d0a26aec2e8f",
+      "basic_care": "English Ivy is a fast-growing plant that prefers bright, indirect light and moderate humidity.",
+      "watering_instructions": "Water once a week or when the soil feels dry to the touch."
+    },
+    {
+      "name": "Bird of Paradise",
+      "scientific_name": "Strelitzia reginae",
+      "image": "https://images.unsplash.com/photo-1677069080087-84f9f598ebeb?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Bird of Paradise plants thrive in bright light and need a lot of space to grow.",
+      "watering_instructions": "Water thoroughly when the soil feels dry. Water every 7-10 days, more frequently during the warmer months."
+    },
+    {
+      "name": "Chinese Evergreen",
+      "scientific_name": "Aglaonema",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.qgsHoagU6DjGRfW43dekmwHaFp%26pid%3DApi&f=1&ipt=44ccee0e6eb68d44a06ac5645e149c6f066d71bc113899ff3a71f2994b5c25a0&ipo=images",
+      "basic_care": "Chinese Evergreens are low-maintenance plants that thrive in low to medium light.",
+      "watering_instructions": "Water every 1-2 weeks, allowing the top of the soil to dry out between waterings."
+    },
+    {
+      "name": "Calathea",
+      "scientific_name": "Calathea spp.",
+      "image": "https://images.unsplash.com/photo-1597306200021-f8e16b12fb45?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FsYXRoZWF8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Calathea plants thrive in low to medium light and are known for their decorative, patterned leaves.",
+      "watering_instructions": "Keep the soil evenly moist. Water once a week or when the soil feels dry."
+    },
+    {
+      "name": "Succulent",
+      "scientific_name": "Various species",
+      "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHN1Y2N1bGVudHxlbnwwfHwwfHx8MA%3D%3D",
+      "basic_care": "Succulents require bright light and dry conditions. They are perfect for low-maintenance plant owners.",
+      "watering_instructions": "Water only when the soil is dry, usually once every 2-3 weeks."
+    },
+    {
+      "name": "Rubber Plant",
+      "scientific_name": "Ficus elastica",
+      "image": "https://images.unsplash.com/photo-1669392597221-bbfd4b6e13ff?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cnViYmVyJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Rubber plants are hardy and thrive in bright, indirect light.",
+      "watering_instructions": "Water when the top of the soil is dry, about once every week or two."
+    },
+    {
+      "name": "Basil",
+      "scientific_name": "Ocimum basilicum",
+      "image": "https://images.unsplash.com/photo-1572978577745-245cde7e1da3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Basil plants require full sunlight and warm temperatures to thrive. They are commonly grown for culinary purposes.",
+      "watering_instructions": "Water regularly, about once every 2-3 days, to keep the soil moist but not waterlogged."
+    },
+    {
+      "name": "Lavender",
+      "scientific_name": "Lavandula angustifolia",
+      "image": "https://images.unsplash.com/photo-1594024922130-00c443c710a8?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Lavender prefers full sunlight and well-drained soil. It’s drought-tolerant once established.",
+      "watering_instructions": "Water when the soil is dry. Water less frequently in winter, about once every 2-3 weeks."
+    },
+    {
+      "name": "Crown of Thorns",
+      "scientific_name": "Euphorbia milii",
+      "image": "https://images.unsplash.com/photo-1691296756950-b4ff47c825ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q3Jvd24lMjBvZiUyMFRob3JucyUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D",
+      "basic_care": "Crown of Thorns thrives in full sunlight and is very drought-tolerant. It is known for its vibrant, colorful flowers.",
+      "watering_instructions": "Water every 2-3 weeks or when the soil feels dry to the touch."
+    },
+    {
+      "name": "Jade Plant",
+      "scientific_name": "Crassula ovata",
+      "image": "https://images.unsplash.com/photo-1643579265541-2a6359ff8b57?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8SmFkZSUyMFBsYW50fGVufDB8fDB8fHww",
+      "basic_care": "Jade plants are very low-maintenance and require plenty of sunlight and well-draining soil.",
+      "watering_instructions": "Water once every 2-3 weeks, allowing the soil to dry out completely between waterings."
+    },
+    {
+      "name": "Ferns",
+      "scientific_name": "Various species",
+      "image": "https://images.unsplash.com/photo-1474139346426-aa184093f6d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8RmVybnN8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Ferns prefer indirect light and high humidity. They are perfect for bathrooms or kitchens.",
+      "watering_instructions": "Water regularly to keep the soil moist. Water once a week or when the soil feels dry."
+    },
+    {
+      "name": "Chives",
+      "scientific_name": "Allium schoenoprasum",
+      "image": "https://images.unsplash.com/photo-1657411658330-93107ae1345e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hpdmVzfGVufDB8fDB8fHww",
+      "basic_care": "Chives thrive in full sunlight and are often grown in herb gardens.",
+      "watering_instructions": "Water regularly, keeping the soil moist but not soggy. Water about once every 2-3 days."
+    },
+    {
+      "name": "Bromeliad",
+      "scientific_name": "Bromeliaceae",
+      "image": "https://images.unsplash.com/photo-1665358999033-5f4b2815f827?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Bromeliads thrive in bright, indirect light. They are low-maintenance and require little watering.",
+      "watering_instructions": "Water the plant directly into the central cup and mist the surrounding leaves. Water about once a week."
+    },
+    {
+      "name": "Coleus",
+      "scientific_name": "Plectranthus scutellarioides",
+      "image": "https://images.unsplash.com/photo-1676324606903-8d8c72e1d8de?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Coleus plants prefer bright, indirect light and are known for their colorful foliage.",
+      "watering_instructions": "Water consistently, keeping the soil moist. Water once every week or when the soil feels dry."
+    },
+    {
+      "name": "Begonia",
+      "scientific_name": "Begonia spp.",
+      "image": "https://images.unsplash.com/photo-1561631538-b4f96db97902?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8QmVnb25pYXxlbnwwfHwwfHx8MA%3D%3D",
+      "basic_care": "Begonias prefer indirect light and should be kept in a humid environment.",
+      "watering_instructions": "Water when the soil feels dry to the touch. Water about once every week."
+    },
+    {
+      "name": "African Violet",
+      "scientific_name": "Saintpaulia",
+      "image": "https://images.unsplash.com/photo-1645286975285-61e710b35a87?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "African Violets prefer moderate, indirect light and require a bit of extra care to bloom.",
+      "watering_instructions": "Water from the bottom or keep the soil moist, but avoid wetting the leaves. Water every 7-10 days."
+    },
+    {
+      "name": "Geranium",
+      "scientific_name": "Pelargonium",
+      "image": "https://plus.unsplash.com/premium_photo-1675712535056-fc6fa6aee8ec?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8R2VyYW5pdW0lMjBmbG93ZXJ8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Geraniums require full sunlight and well-draining soil to grow well.",
+      "watering_instructions": "Water once a week or when the soil feels dry to the touch."
+    },
+    {
+      "name": "Kalanchoe",
+      "scientific_name": "Kalanchoe blossfeldiana",
+      "image": "https://images.unsplash.com/photo-1629984927380-94d440fba762?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Kalanchoe is a succulent plant that needs bright light and dry conditions.",
+      "watering_instructions": "Water every 2-3 weeks, allowing the soil to dry out completely between waterings."
+    }
+  ]
+  
