@@ -27,6 +27,12 @@ app.use("/forum", forumRoutes)
 const plantsRoutes = require("./routes/plants.routes")
 app.use("/plants", plantsRoutes);
 
+const mushRoutes = require("./routes/mush.routes")
+app.use("/mushroom", mushRoutes);
+
+const chatbotRoutes = require("./routes/chatbot.routes")
+app.use("/chat", chatbotRoutes) //added with chatbot
+
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 require("./error-handling")(app);
 

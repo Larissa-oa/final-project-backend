@@ -2,7 +2,7 @@
 const { Schema, model } = require("mongoose");
 
 
-const PlantSchema = new Schema(
+const MushroomSchema = new Schema(
   {
     name: {
         type:String, 
@@ -21,17 +21,18 @@ const PlantSchema = new Schema(
         type: String,
         required:true
     },
-    watering_instructions: {
+    ideal_environment: {
         type: String,
         required:true
     },
-    type: {
-        type: String, 
+    edible: {
+        type: String,
+        required: true
     }
 }
 );
 
-const PlantModel = model("Plant", PlantSchema);
+const MushroomModel = model("Mushroom", MushroomSchema);
 
-module.exports = PlantModel;
+module.exports = MushroomModel;
 

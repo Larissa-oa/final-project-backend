@@ -1,0 +1,194 @@
+[
+    {
+      "name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "image": "https://images.unsplash.com/photo-1534940519139-f860fb3c6e38?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      "basic_care": "Tomatoes need full sun and well-drained, fertile soil. Stake or cage plants to keep fruit off the ground.",
+      "watering_instructions": "Water deeply 2-3 times per week, keeping the soil evenly moist but not soggy.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Carrot",
+      "scientific_name": "Daucus carota",
+      "image": "https://images.unsplash.com/photo-1669845747033-ed26d43fa874?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2Fycm90JTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "basic_care": "Carrots prefer loose, sandy soil and full sun. Thin seedlings to allow space for root development.",
+      "watering_instructions": "Water consistently to keep the soil evenly moist, especially as roots are developing.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Spinach",
+      "scientific_name": "Spinacia oleracea",
+      "image": "https://images.unsplash.com/photo-1660570169550-494f987a1f12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
+      "basic_care": "Spinach grows best in cool weather with rich, moist soil. Provide partial shade in warmer climates.",
+      "watering_instructions": "Keep soil moist with frequent, light watering. Avoid letting soil dry out completely.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Lettuce",
+      "scientific_name": "Lactuca sativa",
+      "image": "Cucumber",
+      "basic_care": "Lettuce thrives in cool weather and well-drained, fertile soil. Succession planting helps extend the harvest.",
+      "watering_instructions": "Water lightly and often to maintain consistent soil moisture. Avoid overhead watering to prevent disease.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Cucumber",
+      "scientific_name": "Cucumis sativus",
+      "image": "https://plus.unsplash.com/premium_photo-1680344513118-c9c6c4323545?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHx8",
+      "basic_care": "Cucumbers need full sun and rich, well-drained soil. Train vines on a trellis for better air circulation.",
+      "watering_instructions": "Water regularly and deeply, especially during fruiting. Keep soil evenly moist.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Bell Pepper",
+      "scientific_name": "Capsicum annuum",
+      "image": "https://plus.unsplash.com/premium_photo-1680345328197-aa29e0b38e7b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Bell peppers need full sun and warm temperatures. Provide support to prevent plants from toppling over.",
+      "watering_instructions": "Water deeply once or twice a week, more often during dry spells. Keep soil consistently moist.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Zucchini",
+      "scientific_name": "Cucurbita pepo",
+      "image": "https://images.unsplash.com/photo-1661962265541-478a4f5d06e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "basic_care": "Zucchini grows best in full sun and fertile, well-drained soil. Harvest fruits regularly to encourage more production.",
+      "watering_instructions": "Water deeply once or twice a week. Avoid getting water on the leaves to reduce risk of mildew.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Broccoli",
+      "scientific_name": "Brassica oleracea var. italica",
+      "image": "https://images.unsplash.com/photo-1628773822990-202aed1e567e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Broccoli prefers cool weather and fertile, well-drained soil. Mulch to retain moisture and keep soil cool.",
+      "watering_instructions": "Keep soil consistently moist with regular watering. Avoid waterlogging the roots.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Cauliflower",
+      "scientific_name": "Brassica oleracea var. botrytis",
+      "image": "https://images.unsplash.com/photo-1702696119012-429cd5a3a640?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2F1bGlmbG93ZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "basic_care": "Cauliflower needs cool temperatures and rich, moist soil. Protect from temperature extremes and pests.",
+      "watering_instructions": "Water evenly and frequently to keep soil moist but not soggy.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Beet",
+      "scientific_name": "Beta vulgaris",
+      "image": "https://kj1bcdn.b-cdn.net/media/36741/beet.png",
+      "basic_care": "Beets grow well in cool weather and loose, well-drained soil. Thin seedlings for best root development.",
+      "watering_instructions": "Water regularly to keep soil evenly moist, especially as roots form.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Eggplant",
+      "scientific_name": "Solanum melongena",
+      "image": "https://images.unsplash.com/photo-1598030413471-23097f7a81be?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+      "basic_care": "Eggplants prefer full sun and fertile, well-drained soil. Stake plants to support heavy fruits.",
+      "watering_instructions": "Water deeply once or twice a week, keeping the soil consistently moist.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Onion",
+      "scientific_name": "Allium cepa",
+      "image": "https://kellogggarden.com/wp-content/uploads/2020/03/onion-growing-from-ground-.jpg",
+      "basic_care": "Onions need full sun and loose, fertile soil. Keep beds free of weeds.",
+      "watering_instructions": "Water moderately, reducing watering as bulbs mature. Overwatering can cause rot.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Garlic",
+      "scientific_name": "Allium sativum",
+      "image": "https://i0.wp.com/theprudentgarden.com/wp-content/uploads/2019/09/How-to-plant-garlic_4-683x1024.jpg?resize=683%2C1024&ssl=1",
+      "basic_care": "Garlic prefers full sun and well-drained soil. Plant in the fall for summer harvest.",
+      "watering_instructions": "Water regularly during active growth, then reduce as harvest time approaches.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Green Bean",
+      "scientific_name": "Phaseolus vulgaris",
+      "image": "https://images.unsplash.com/photo-1715941873135-217c6f7c7f42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8R3JlZW4lMjBCZWFufGVufDB8fDB8fHww",
+      "basic_care": "Green beans need full sun and fertile, well-drained soil. Provide support for pole varieties.",
+      "watering_instructions": "Water regularly, keeping soil evenly moist but not soggy.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Sweet Corn",
+      "scientific_name": "Zea mays",
+      "image": "https://images.unsplash.com/photo-1554402100-8d1d9f3dff80?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U3dlZXQlMjBDb3JufGVufDB8fDB8fHww",
+      "basic_care": "Sweet corn requires full sun and fertile, well-drained soil. Plant in blocks for better pollination.",
+      "watering_instructions": "Water deeply once or twice a week, especially during tasseling and ear development.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Pumpkin",
+      "scientific_name": "Cucurbita maxima",
+      "image": "https://images.unsplash.com/photo-1506917728037-b6af01a7d403?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Pumpkins need full sun and rich, well-drained soil. Provide plenty of space for sprawling vines.",
+      "watering_instructions": "Water deeply and regularly, especially during fruit development. Avoid wetting the leaves.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Turnip",
+      "scientific_name": "Brassica rapa subsp. rapa",
+      "image": "https://www.pritikin.com/wp-content/uploads/2022/09/Turnips.png",
+      "basic_care": "Turnips grow best in cool weather and loose soil. Thin seedlings to allow room for bulb growth.",
+      "watering_instructions": "Water consistently to keep the soil moist. Do not allow soil to dry out.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Strawberry",
+      "scientific_name": "Fragaria × ananassa",
+      "image": "https://images.unsplash.com/photo-1711891391207-251420f0157f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
+      "basic_care": "Strawberries prefer full sun and well-drained, sandy soil. Mulch helps retain moisture and suppress weeds.",
+      "watering_instructions": "Water regularly to keep soil moist, especially during flowering and fruiting. Avoid wetting leaves.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Melon (Cantaloupe)",
+      "scientific_name": "Cucumis melo",
+      "image": "https://images.squarespace-cdn.com/content/v1/5811566d20099e23814644fd/1590786985185-0JMOH1U9UMW8A492PZUY/melon-varieties-dammanns-cantaloupe-plant.jpg",
+      "basic_care": "Melons need full sun and warm, well-drained soil. Provide plenty of space for vines to spread.",
+      "watering_instructions": "Water deeply once or twice a week. Reduce watering as fruit matures to concentrate sweetness.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Watermelon",
+      "scientific_name": "Citrullus lanatus",
+      "image": "https://kellogggarden.com/wp-content/uploads/2019/06/melonsuccesswatermelon.jpg",
+      "basic_care": "Watermelons grow best in full sun and sandy, fertile soil. Allow ample space for vines to sprawl.",
+      "watering_instructions": "Water deeply and regularly, especially in early growth. Reduce watering as fruits mature.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Pineapple",
+      "scientific_name": "Ananas comosus",
+      "image": "https://images.unsplash.com/photo-1706059924399-1e26828a627f?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "basic_care": "Pineapples thrive in warm, sunny climates and well-drained soil. Grown from the fruit's crown.",
+      "watering_instructions": "Water lightly but frequently. Do not let soil dry out completely.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Raspberry",
+      "scientific_name": "Rubus idaeus",
+      "image": "https://images.unsplash.com/photo-1705231956335-8987f9ba4e66?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "basic_care": "Raspberries grow well in full sun and fertile, slightly acidic soil. Support canes with a trellis or stake.",
+      "watering_instructions": "Water deeply once or twice a week, especially during fruit production. Keep roots moist.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Blueberry",
+      "scientific_name": "Vaccinium corymbosum",
+      "image": "https://images.unsplash.com/photo-1597474561103-0773c378a1fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Qmx1ZWJlcnJ5fGVufDB8fDB8fHww",
+      "basic_care": "Blueberries prefer acidic soil and full sun. Mulch helps retain moisture and protect shallow roots.",
+      "watering_instructions": "Water consistently, especially during fruiting. Keep soil moist but not soggy.",
+      "type": "Fruits & Vegetables"
+    },
+    {
+      "name": "Currant",
+      "scientific_name": "Ribes rubrum",
+      "image": "https://www.diggers.com.au/cdn/shop/products/black-currant-wcub_f054cac9-a6de-4283-9944-7a4365ab5992.jpg?v=1637122520",
+      "basic_care": "Currants prefer cool climates, rich soil, and partial shade. Prune annually for best fruit yield.",
+      "watering_instructions": "Water regularly to maintain moist soil, especially during dry periods.",
+      "type": "Fruits & Vegetables"
+    }
+  ]  
