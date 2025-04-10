@@ -24,7 +24,7 @@ router.get("/all-topics", async (req, res)=>{
         const allTopics = await ForumModel.find()
         .populate("author")
         console.log("Here are all the topics")
-        res.status(202).json(allTopics)
+        res.status(200).json({allTopics})
     }
     catch(error){
         console.log(error);
