@@ -26,9 +26,22 @@ author: {
     ref: "User"
 },
 
-reply: {
-type: [String],
-}
+reply: [
+    {
+      text: {
+        type: String,
+        required: true,
+      },
+      owner: {
+        type: Schema.Types.ObjectId,
+        ref: "User"
+      },
+      createdAt: {
+        type: Date,
+        default: Date.now,
+      },
+    },
+  ],
 })
 
 const ForumModel = model( "forum", ForumSchema)
