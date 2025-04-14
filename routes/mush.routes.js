@@ -2,7 +2,7 @@ const router = require("express").Router();
 const MushroomModel = require("../models/Mushrooms.model")
 
 
-//**********************GETTING ALL PLANTS***********************/
+//**********************GETTING ALL MUSHROOMS***********************/
 router.get("/all-mush", async (req, res) =>{
     try{
         const allMushroom = await MushroomModel.find()
@@ -11,11 +11,11 @@ router.get("/all-mush", async (req, res) =>{
     }
     catch(error){
         console.log(error)
-        res.status(500).json({errorMessage: "Problems getting all the plants"})
+        res.status(500).json({errorMessage: "Problems getting all the mushrooms"})
     }
 })
 
-//******************CREATE A PLANT******************
+//******************CREATE A MUSHROOM******************
 
 router.post("/create-mush", async (req,res) =>{
     try{
@@ -25,12 +25,12 @@ router.post("/create-mush", async (req,res) =>{
        }
     catch(error){
         console.log(error);
-        res.status(500).json({errorMessage: "Having problems creating a plant."});
+        res.status(500).json({errorMessage: "Having problems creating a mushrooms."});
        };
     });
 
 
-//******************DELETE PLANT******************
+//******************DELETE MUSHROOM******************
 
 router.delete("/delete-mush/:mushId", async (req,res)=>{
     const {mushId} = req.params;

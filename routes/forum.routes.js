@@ -1,12 +1,11 @@
 const router = require ("express").Router();
 const ForumModel = require ("../models/Forum.model");
-
+const uploader = require ("../middlewares/cloudinary.middleware")
 //******************CREATE A FORUM TOPIC******************
 
-router.post("/create-topic", async (req,res) =>{
+router.post("/create-topic", uploader.single("imageUrl"), async (req,res) =>{
     try{
-
-       const createdTopic = await ForumModel.create(req.body) 
+       const createdTopic = await (await ForumModel.create({...req.body, image:req.file?.path})).populate("author");
         console.log("Topic created!", createdTopic)
         res.status(201).json(createdTopic);
        }

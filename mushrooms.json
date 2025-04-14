@@ -1,227 +1,254 @@
 [
-    {
-      "name": "Agaricus bisporus",
-      "scientific_name": "Agaricus bisporus",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WqN6bdY1Sr-8ioP5-S3Y9AHaE8%26pid%3DApi&f=1&ipt=8cdfb36fc066920a0c69798764f1f896e6a1cac92ca85b83771953c0ba9b3a4e&ipo=images",
-      "basic_care": "Keep in a cool, dark place with consistent moisture. Avoid direct sunlight.",
-      "ideal_environment": "Moist, humid conditions with temperatures between 55-60°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Chanterelle",
-      "scientific_name": "Cantharellus cibarius",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Kwxzr-lFVe3eg5Bd2P1nqQHaFX%26pid%3DApi&f=1&ipt=97d2e3e03c3ea247b14dcbbba3897dccefb5c3798ddb1c217b98bab83a0967ff&ipo=images",
-      "basic_care": "Chanterelles require a moist environment and prefer indirect light.",
-      "ideal_environment": "Woodland areas with high humidity and temperatures of 60-70°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Shiitake",
-      "scientific_name": "Lentinula edodes",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.W00FhXTVVHs14I2AvE_zZQHaEv%26pid%3DApi&f=1&ipt=59a17217b368eadac8867e3d77a7cb73caf3a84f51734823ce41f1dd811f64bf&ipo=images",
-      "basic_care": "Requires a consistent humidity level and temperatures between 50-70°F.",
-      "ideal_environment": "Shade, with high humidity and well-drained organic matter like logs or sawdust.",
-      "edible": "yes"
-    },
-    {
-      "name": "Oyster Mushroom",
-      "scientific_name": "Pleurotus ostreatus",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.KuIENHdJ-cravAGghEDVFAHaFj%26pid%3DApi&f=1&ipt=8cc06b5b494a721d953a0ce8090f06ed6c49a3d44e4877d2109b58085e1fedce&ipo=images",
-      "basic_care": "Prefers a cool, humid environment with plenty of airflow.",
-      "ideal_environment": "Grow in dark, humid areas with temperatures between 55-65°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Lion's Mane",
-      "scientific_name": "Hericium erinaceus",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9U8yxi-VHmjDzvKCUszUSAAAAA%26pid%3DApi&f=1&ipt=b4332560e77ed14c6f982e43f2d8cd4892fe25e0f63e20c9a832114985db4690&ipo=images",
-      "basic_care": "Keep in a humid environment with moderate light. Requires slightly acidic conditions.",
-      "ideal_environment": "Cool, shaded environments with temperatures between 60-70°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Enoki Mushroom",
-      "scientific_name": "Flammulina velutipes",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.RUtgb72HyDjo01mGrGfUbgHaE7%26pid%3DApi&f=1&ipt=84d2f896e15762e341993fcba301bf295a152488e126855187847f44ece9aa39&ipo=images",
-      "basic_care": "Enoki mushrooms require cooler temperatures and high humidity for proper growth.",
-      "ideal_environment": "Temperatures of 40-50°F, with high humidity and indirect light.",
-      "edible": "yes"
-    },
-    {
-      "name": "Maitake",
-      "scientific_name": "Grifola frondosa",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.oq-eWm-NQu0ZjUseAb98eQHaFj%26pid%3DApi&f=1&ipt=7c0ae5bb58fb045d981f5568aee2cc4aee8fcd789f012b588f210d9c0d5857fc&ipo=images",
-      "basic_care": "Maitake mushrooms require cool temperatures and a humid environment.",
-      "ideal_environment": "Shady, moist conditions with temperatures between 50-60°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Morel Mushroom",
-      "scientific_name": "Morchella spp.",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.akpYVed2yRJfbpcwM_wMnAHaE8%26pid%3DApi&f=1&ipt=d3b941e64c961feb84796714b603498bb3df2e9c7574111cd8cc46605d32539a&ipo=imagesg",
-      "basic_care": "Requires moisture and can be grown in well-drained soil with mild sunlight.",
-      "ideal_environment": "Temperatures between 60-70°F, with well-drained, moist soil.",
-      "edible": "yes"
-    },
-    {
-      "name": "Porcini",
-      "scientific_name": "Boletus edulis",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.7CZjXYuUmdlHXcebj4z8OAHaE9%26pid%3DApi&f=1&ipt=439bcaf6d2e74cd0d3c6159c07431d0e3e26096d8ddda18290e60b180b2cd5b8&ipo=images",
-      "basic_care": "Grow in areas with good air circulation and moderate moisture.",
-      "ideal_environment": "Shaded forest environments, temperatures between 50-60°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Cordyceps",
-      "scientific_name": "Cordyceps militaris",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.lovaY0HvqFCOILZEaMxH1gHaEK%26pid%3DApi&f=1&ipt=2257ce280df3d34bcbcdd1231432aeff9a9bc9a2e0e55d8ae79b85ebabd23d73&ipo=images",
-      "basic_care": "Requires specific environmental conditions, including a high humidity level.",
-      "ideal_environment": "Temperatures between 60-70°F with high humidity.",
-      "edible": "yes"
-    },
-    {
+  {
+    "name": "Agaricus bisporus",
+    "scientific_name": "Agaricus bisporus",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.WqN6bdY1Sr-8ioP5-S3Y9AHaE8%26pid%3DApi&f=1&ipt=8cdfb36fc066920a0c69798764f1f896e6a1cac92ca85b83771953c0ba9b3a4e&ipo=images",
+    "basic_care": "Keep in a cool, dark place with consistent moisture. Avoid direct sunlight.",
+    "ideal_environment": "Moist, humid conditions with temperatures between 13-16°C.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Chanterelle",
+    "scientific_name": "Cantharellus cibarius",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.Kwxzr-lFVe3eg5Bd2P1nqQHaFX%26pid%3DApi&f=1&ipt=97d2e3e03c3ea247b14dcbbba3897dccefb5c3798ddb1c217b98bab83a0967ff&ipo=images",
+    "basic_care": "Chanterelles require a moist environment and prefer indirect light.",
+    "ideal_environment": "Woodland areas with high humidity and temperatures of 15-21°C.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Shiitake",
+    "scientific_name": "Lentinula edodes",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.W00FhXTVVHs14I2AvE_zZQHaEv%26pid%3DApi&f=1&ipt=59a17217b368eadac8867e3d77a7cb73caf3a84f51734823ce41f1dd811f64bf&ipo=images",
+    "basic_care": "Requires a consistent humidity level and temperatures between 10-21°C.",
+    "ideal_environment": "Shade, with high humidity and well-drained organic matter like logs or sawdust.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Oyster Mushroom",
+    "scientific_name": "Pleurotus ostreatus",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.KuIENHdJ-cravAGghEDVFAHaFj%26pid%3DApi&f=1&ipt=8cc06b5b494a721d953a0ce8090f06ed6c49a3d44e4877d2109b58085e1fedce&ipo=images",
+    "basic_care": "Prefers a cool, humid environment with plenty of airflow.",
+    "ideal_environment": "Grow in dark, humid areas with temperatures between 13-18°C.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Lion's Mane",
+    "scientific_name": "Hericium erinaceus",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9U8yxi-VHmjDzvKCUszUSAAAAA%26pid%3DApi&f=1&ipt=b4332560e77ed14c6f982e43f2d8cd4892fe25e0f63e20c9a832114985db4690&ipo=images",
+    "basic_care": "Keep in a humid environment with moderate light. Requires slightly acidic conditions.",
+    "ideal_environment": "Cool, shaded environments with temperatures between 15-21°C.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Enoki Mushroom",
+    "scientific_name": "Flammulina velutipes",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.explicit.bing.net%2Fth%3Fid%3DOIP.RUtgb72HyDjo01mGrGfUbgHaE7%26pid%3DApi&f=1&ipt=84d2f896e15762e341993fcba301bf295a152488e126855187847f44ece9aa39&ipo=images",
+    "basic_care": "Enoki mushrooms require cooler temperatures and high humidity for proper growth.",
+    "ideal_environment": "Temperatures of 4-10°C, with high humidity and indirect light.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Maitake",
+    "scientific_name": "Grifola frondosa",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.oq-eWm-NQu0ZjUseAb98eQHaFj%26pid%3DApi&f=1&ipt=7c0ae5bb58fb045d981f5568aee2cc4aee8fcd789f012b588f210d9c0d5857fc&ipo=images",
+    "basic_care": "Maitake mushrooms require cool temperatures and a humid environment.",
+    "ideal_environment": "Shady, moist conditions with temperatures between 10-16°C.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Morel Mushroom",
+    "scientific_name": "Morchella spp.",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.akpYVed2yRJfbpcwM_wMnAHaE8%26pid%3DApi&f=1&ipt=d3b941e64c961feb84796714b603498bb3df2e9c7574111cd8cc46605d32539a&ipo=imagesg",
+    "basic_care": "Requires moisture and can be grown in well-drained soil with mild sunlight.",
+    "ideal_environment": "Temperatures between 15-21°C, with well-drained, moist soil.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Porcini",
+    "scientific_name": "Boletus edulis",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.7CZjXYuUmdlHXcebj4z8OAHaE9%26pid%3DApi&f=1&ipt=439bcaf6d2e74cd0d3c6159c07431d0e3e26096d8ddda18290e60b180b2cd5b8&ipo=images",
+    "basic_care": "Grow in areas with good air circulation and moderate moisture.",
+    "ideal_environment": "Shaded forest environments, temperatures between 10-16°C.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
+    "name": "Cordyceps",
+    "scientific_name": "Cordyceps militaris",
+    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.lovaY0HvqFCOILZEaMxH1gHaEK%26pid%3DApi&f=1&ipt=2257ce280df3d34bcbcdd1231432aeff9a9bc9a2e0e55d8ae79b85ebabd23d73&ipo=images",
+    "basic_care": "Requires specific environmental conditions, including a high humidity level.",
+    "ideal_environment": "Temperatures between 15-21°C and well-ventilated areas.",
+    "edible": "yes",
+    "type": "Mushrooms"
+  },
+  {
       "name": "King Oyster Mushroom",
       "scientific_name": "Pleurotus eryngii",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.mhy7EFIMk2I_sWYeWxZRjQHaHa%26pid%3DApi&f=1&ipt=2a9cb822569814516de6ead0f54b3bd655e2652b30a1659c7fdeeb5c0913596c&ipo=images",
       "basic_care": "Requires consistent moisture and moderate temperatures to grow properly.",
-      "ideal_environment": "Shaded areas, temperatures between 50-60°F with high humidity.",
-      "edible": "yes"
+      "ideal_environment": "Shaded areas, temperatures between 10-15°C with high humidity.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Reishi",
       "scientific_name": "Ganoderma lucidum",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.RanBTddj13CpOOKEPzbnNAHaE7%26pid%3DApi&f=1&ipt=57f102f24db3f930502feb3a73a94cec37fff04e87e156a52a36de88ed2f79af&ipo=images",
       "basic_care": "Reishi mushrooms prefer high humidity and moderate temperatures.",
-      "ideal_environment": "Cool, shaded forest environments with temperatures of 60-75°F.",
-      "edible": "no"
+      "ideal_environment": "Cool, shaded forest environments with temperatures of 15-24°C.",
+      "edible": "no",
+      "type": "Mushrooms"
     },
     {
       "name": "Turkey Tail",
       "scientific_name": "Trametes versicolor",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.IfznCfMnH2y61sibnEgZ_AHaFj%26pid%3DApi&f=1&ipt=30706d87f550aeed407d3c0a406c0af7e3cee419afcf3225d908dcc6cf89c3fe&ipo=images",
       "basic_care": "Grow in moist, shaded areas with consistent humidity.",
-      "ideal_environment": "Woodland environments with high humidity and temperatures between 60-70°F.",
-      "edible": "no"
+      "ideal_environment": "Woodland environments with high humidity and temperatures between 15-21°C.",
+      "edible": "no",
+      "type": "Mushrooms"
     },
     {
       "name": "Pink Oyster Mushroom",
       "scientific_name": "Pleurotus djamor",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-BWd4fHYr2t_TkG9jKCf3wHaEo%26pid%3DApi&f=1&ipt=8fd271abdc85421058a7bd4e0430704974ce41e2595e2094846a010483f999b5&ipo=images",
       "basic_care": "Requires moderate temperature and humidity levels to thrive.",
-      "ideal_environment": "Temperatures between 65-75°F with high humidity and indirect light.",
-      "edible": "yes"
+      "ideal_environment": "Temperatures between 18-24°C with high humidity and indirect light.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Beech Mushroom",
       "scientific_name": "Hypsizygus tessellatus",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.BQX33DedauKbj3XKehiLsQHaE7%26pid%3DApi&f=1&ipt=fb06d79c9c81e43a8ee2f3eda9b9e88d31ba49608048492ea67a35bc10ecb782&ipo=images",
       "basic_care": "Requires a humid environment with moderate temperatures.",
-      "ideal_environment": "Cool, moist environments with temperatures of 55-65°F.",
-      "edible": "yes"
+      "ideal_environment": "Cool, moist environments with temperatures of 13-18°C.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Black Trumpet",
       "scientific_name": "Craterellus cornucopioides",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.8sZ3XJOZRgdqsizTsCPdcAHaE7%26pid%3DApi&f=1&ipt=f2b839e45659dd7f148f647fbd0f9f6b7f9f0af12abe0ee0f6984a7614500b4a&ipo=images",
       "basic_care": "Requires moist soil with moderate light levels.",
-      "ideal_environment": "Temperatures between 60-70°F with moist woodland environments.",
-      "edible": "yes"
+      "ideal_environment": "Temperatures between 15-21°C with moist woodland environments.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Wood Ear",
       "scientific_name": "Auricularia auricula-judae",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.B_AQlFGxb3CITjrN58DykwHaE8%26pid%3DApi&f=1&ipt=330df301d8a1730fe7cde8150bba447ecea338322319988f404f22014f40051e&ipo=images",
       "basic_care": "Wood ear mushrooms need high humidity and consistent moisture.",
-      "ideal_environment": "Shaded, cool environments with temperatures between 50-60°F.",
-      "edible": "yes"
+      "ideal_environment": "Shaded, cool environments with temperatures between 10-15°C.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Lobster Mushroom",
       "scientific_name": "Hypomyces lactifluorum",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP._SlO-YCn0ujDdr4J5GC3sAHaHa%26pid%3DApi&f=1&ipt=d0b3784272b61a694f0d67a13442e6eedb2a7c245c3b312cdc8c97022427d361&ipo=images",
       "basic_care": "Requires moderate humidity and temperatures for proper growth.",
-      "ideal_environment": "Woodland environments with temperatures between 60-70°F.",
-      "edible": "yes"
+      "ideal_environment": "Woodland environments with temperatures between 15-21°C.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Truffle",
       "scientific_name": "Tuber spp.",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.ErnZfCVozq7djl5eH9cd9wHaFj%26pid%3DApi&f=1&ipt=34c866bebe586c48b9fc1e7183648dd287ca567b9d2653392a52e71bfad09cc4&ipo=images",
       "basic_care": "Requires a symbiotic relationship with tree roots and a calcareous soil.",
-      "ideal_environment": "Temperatures between 50-70°F in well-drained, alkaline soils.",
-      "edible": "yes"
+      "ideal_environment": "Temperatures between 10-21°C in well-drained, alkaline soils.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Psilocybe cubensis",
       "scientific_name": "Psilocybe cubensis",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-MQfmFCB5TbCcGcf-YfiZgAAAA%26pid%3DApi&f=1&ipt=a4c0ce51507abcd1bc7179f51dd06181ec91e25ca5c40191fcf44cca8b1175db&ipo=images",
       "basic_care": "Needs a humid environment with a consistent temperature and high moisture.",
-      "ideal_environment": "Temperatures between 75-80°F with high humidity.",
-      "edible": "no"
+      "ideal_environment": "Temperatures between 24-27°C with high humidity.",
+      "edible": "no",
+      "type": "Mushrooms"
     },
     {
       "name": "Puffball Mushroom",
       "scientific_name": "Lycoperdon spp.",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Oe6tmtaLrFAlS1vhtJHv0AHaE4%26pid%3DApi&f=1&ipt=4e477f602c586ace38fe56d3336e4e32c355315802947ed9e00976353ab8726f&ipo=images",
       "basic_care": "Requires a damp environment with moderate sunlight.",
-      "ideal_environment": "Shaded forest floor with temperatures between 50-70°F.",
-      "edible": "yes"
+      "ideal_environment": "Shaded forest floor with temperatures between 10-21°C.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
     {
       "name": "Giant Puffball",
       "scientific_name": "Calvatia gigantea",
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Srk4DdS1PcY1PYNXRdmAeAHaEK%26pid%3DApi&f=1&ipt=87be97e257f89529ab0e9ceaf4eebc59df225b8c50c9d8a6d6d503ea00a9ee4d&ipo=images",
       "basic_care": "Needs high moisture and is best grown in grasslands or fields.",
-      "ideal_environment": "Temperatures between 50-60°F in moist grasslands.",
-      "edible": "yes"
+      "ideal_environment": "Temperatures between 10-15°C in moist grasslands.",
+      "edible": "yes",
+      "type": "Mushrooms"
     },
-    {
-      "name": "Saffron Milk Cap",
-      "scientific_name": "Lactarius deliciosus",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-SIAZjA_ZIm3t3ysTIaXfAHaFn%26pid%3DApi&f=1&ipt=5b92083eec9d2fe52b81872ce8c84c9c0d0d28c3b2d536f99d21721edfa8549b&ipo=images",
-      "basic_care": "Requires acidic soil with high moisture levels.",
-      "ideal_environment": "Temperatures between 50-60°F in forests with pine trees.",
-      "edible": "yes"
-    },
-    {
-      "name": "Fairy Ring Mushroom",
-      "scientific_name": "Marasmius oreades",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.x65JCBowWg6U4LbLWPHolAHaFj%26pid%3DApi&f=1&ipt=4754f3c0017aae31006d39cbd46f93d7e3ce91c190c3f26364b8eab2c904592c&ipo=images",
-      "basic_care": "Requires moist, well-drained soil and indirect light.",
-      "ideal_environment": "Temperatures between 60-70°F, growing in grassy areas.",
-      "edible": "yes"
-    },
-    {
-      "name": "Cinnamon Cap",
-      "scientific_name": "Gymnopilus underwoodii",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.1ZMy35zDevabqNKmZvwxnAHaHa%26pid%3DApi&f=1&ipt=f53a3d17d2057d9ad3b1881f9ebb0a1f733bbe5ecd3706698c4a6ca823d99b38&ipo=images",
-      "basic_care": "Requires well-aerated soil and moderate moisture.",
-      "ideal_environment": "Shady woodlands, with temperatures between 60-75°F.",
-      "edible": "no"
-    },
-    {
-      "name": "Bolete Mushroom",
-      "scientific_name": "Boletus spp.",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.cyWm-_zHM5FobYLeLw-sTAHaE8%26pid%3DApi&f=1&ipt=20dad1a180d4a1befe7114728055d9d06873aeeea7c9fe3247d6d192e0918d20&ipo=images",
-      "basic_care": "Grows best in damp, shady areas with rich soil.",
-      "ideal_environment": "Temperatures between 55-65°F in moist forest floors.",
-      "edible": "yes"
-    },
-    {
-      "name": "Sulphur Shelf",
-      "scientific_name": "Laetiporus sulphureus",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.DuEWKnZ01yPbDVTLdQiaGAHaFj%3Fpid%3DApi&f=1&ipt=8c731856c32005ef775948a59071a921312e2605550a6193ff6b5e62a4af1ef1&ipo=images",
-      "basic_care": "Needs a humid environment and a consistent supply of moisture.",
-      "ideal_environment": "Woodland environments with temperatures between 60-70°F.",
-      "edible": "yes"
-    },
-    {
-      "name": "Mushroom of Immortality",
-      "scientific_name": "Ganoderma lucidum",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.pQI_1NgqFAVu5KouAnDioQHaE8%26pid%3DApi&f=1&ipt=e486329ab9444938aba12c8c513fa8a4bd31153566dd43f05e93160774e21ee3&ipo=images",
-      "basic_care": "Requires high humidity and slightly acidic conditions.",
-      "ideal_environment": "Temperatures between 60-75°F in shaded, humid areas.",
-      "edible": "no"
-    }
-  ]
-  
+      {
+        "name": "Saffron Milk Cap",
+        "scientific_name": "Lactarius deliciosus",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.-SIAZjA_ZIm3t3ysTIaXfAHaFn%26pid%3DApi&f=1&ipt=5b92083eec9d2fe52b81872ce8c84c9c0d0d28c3b2d536f99d21721edfa8549b&ipo=images",
+        "basic_care": "Requires acidic soil with high moisture levels.",
+        "ideal_environment": "Temperatures between 10-15°C in forests with pine trees.",
+        "edible": "yes",
+        "type": "Mushrooms"
+      },
+      {
+        "name": "Fairy Ring Mushroom",
+        "scientific_name": "Marasmius oreades",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.x65JCBowWg6U4LbLWPHolAHaFj%26pid%3DApi&f=1&ipt=4754f3c0017aae31006d39cbd46f93d7e3ce91c190c3f26364b8eab2c904592c&ipo=images",
+        "basic_care": "Requires moist, well-drained soil and indirect light.",
+        "ideal_environment": "Temperatures between 15-21°C, growing in grassy areas.",
+        "edible": "yes",
+        "type": "Mushrooms"
+      },
+      {
+        "name": "Cinnamon Cap",
+        "scientific_name": "Gymnopilus underwoodii",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.1ZMy35zDevabqNKmZvwxnAHaHa%26pid%3DApi&f=1&ipt=f53a3d17d2057d9ad3b1881f9ebb0a1f733bbe5ecd3706698c4a6ca823d99b38&ipo=images",
+        "basic_care": "Requires well-aerated soil and moderate moisture.",
+        "ideal_environment": "Shady woodlands, with temperatures between 16-24°C.",
+        "edible": "no",
+        "type": "Mushrooms"
+      },
+      {
+        "name": "Bolete Mushroom",
+        "scientific_name": "Boletus spp.",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.cyWm-_zHM5FobYLeLw-sTAHaE8%26pid%3DApi&f=1&ipt=20dad1a180d4a1befe7114728055d9d06873aeeea7c9fe3247d6d192e0918d20&ipo=images",
+        "basic_care": "Grows best in damp, shady areas with rich soil.",
+        "ideal_environment": "Temperatures between 13-18°C in moist forest floors.",
+        "edible": "yes",
+        "type": "Mushrooms"
+      },
+      {
+        "name": "Sulphur Shelf",
+        "scientific_name": "Laetiporus sulphureus",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.DuEWKnZ01yPbDVTLdQiaGAHaFj%3Fpid%3DApi&f=1&ipt=8c731856c32005ef775948a59071a921312e2605550a6193ff6b5e62a4af1ef1&ipo=images",
+        "basic_care": "Needs a humid environment and a consistent supply of moisture.",
+        "ideal_environment": "Woodland environments with temperatures between 16-21°C.",
+        "edible": "yes",
+        "type": "Mushrooms"
+      },
+      {
+        "name": "Mushroom of Immortality",
+        "scientific_name": "Ganoderma lucidum",
+        "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.pQI_1NgqFAVu5KouAnDioQHaE8%26pid%3DApi&f=1&ipt=e486329ab9444938aba12c8c513fa8a4bd31153566dd43f05e93160774e21ee3&ipo=images",
+        "basic_care": "Requires high humidity and slightly acidic conditions.",
+        "ideal_environment": "Temperatures between 16-24°C in shaded, humid areas.",
+        "edible": "no",
+        "type": "Mushrooms"
+      }
+    ]
