@@ -1,11 +1,13 @@
 const router = require ("express").Router();
 const ForumModel = require ("../models/Forum.model");
-const uploader = require ("../middlewares/cloudinary.middleware")
+const uploader = require ("../middlewares/cloudinary.middleware");
+const { isAuthenticated } = require("../middlewares/jwt.middleware");
 //******************CREATE A FORUM TOPIC******************
 
 router.post("/create-topic", uploader.single("imageUrl"), async (req,res) =>{
     try{
-       const createdTopic = await (await ForumModel.create({...req.body, image:req.file?.path})).populate("author");
+
+       const createdTopic = await (await ForumModel.create({...req.body, image:req.file.path})).populate("author")
         console.log("Topic created!", createdTopic)
         res.status(201).json(createdTopic);
        }
@@ -38,7 +40,7 @@ router.get("/the-topic/:topicId", async (req, res) =>{
     const {topicId} = req.params;
     try{
         const selectedTopic = await ForumModel.findById(topicId)
-        .populate("author")
+        .populate("author").populate({path:"reply", populate:{path:"owner", model:"User"}})
         console.log(selectedTopic);
         res.status(202).json(selectedTopic)
     }
@@ -82,4 +84,55 @@ router.delete("/delete-topic/:topicId", async (req,res)=>{
         res.status(500).json({errorMessage: "Problems deleting the chosen topic"})
     }
 })
+
+//comments routes 
+
+//post 
+router.post("/:id/reply", isAuthenticated, async (req, res) => {
+    const { id } = req.params;
+    const { text } = req.body; 
+    const owner = req.payload._id
+    const comment = {
+      text,
+      owner, 
+      createdAt: new Date(),
+    };
+  
+    try {
+      const updatedForum = await ForumModel.findByIdAndUpdate(
+        id,
+        { $push: { reply: comment } },
+        { new: true }
+      ).populate("reply.owner", "username profileImage _id");
+  
+      res.status(201).json({
+        message: "Comment posted! Yay!",
+        updatedForum,
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ error: "Failed to add comment" });
+    }
+  });
+
+  //delete
+  router.delete("/:topicId/delete-reply/:replyId", async (req, res) => {
+    const { topicId, replyId } = req.params;
+    try {
+        const updatedForum = await ForumModel.findByIdAndUpdate(
+            topicId,
+            { $pull: { reply: { _id: replyId } } },
+            { new: true }
+        ).populate("reply.owner", "username profileImage _id");
+
+        res.status(200).json({
+            message: "Reply deleted successfully!",
+            updatedForum,
+        });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ errorMessage: "Error deleting reply." });
+    }
+});
+
 module.exports = router;

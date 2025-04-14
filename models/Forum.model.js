@@ -26,10 +26,23 @@ author: {
     ref: "User"
 },
 
-reply: {
-type: [String],
-}
-})
+reply: [
+    {
+      text: {
+        type: String,
+        required: true,
+      },
+      owner: {
+        type: Schema.Types.ObjectId,
+        ref: "User"
+      },
+      createdAt: {
+        type: Date,
+        default: Date.now,
+      },
+    },
+  ],
+}, {timestamps: true})
 
 const ForumModel = model( "forum", ForumSchema)
 module.exports = ForumModel
