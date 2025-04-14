@@ -87,6 +87,7 @@ router.delete("/delete-topic/:topicId", async (req,res)=>{
 
 //comments routes 
 
+//post 
 router.post("/:id/reply", isAuthenticated, async (req, res) => {
     const { id } = req.params;
     const { text } = req.body; 
@@ -102,7 +103,7 @@ router.post("/:id/reply", isAuthenticated, async (req, res) => {
         id,
         { $push: { reply: comment } },
         { new: true }
-      ).populate("reply.owner");
+      ).populate("reply.owner", "username profileImage _id");
   
       res.status(201).json({
         message: "Comment posted! Yay!",
@@ -113,6 +114,25 @@ router.post("/:id/reply", isAuthenticated, async (req, res) => {
       res.status(500).json({ error: "Failed to add comment" });
     }
   });
-  
+
+  //delete
+  router.delete("/:topicId/delete-reply/:replyId", async (req, res) => {
+    const { topicId, replyId } = req.params;
+    try {
+        const updatedForum = await ForumModel.findByIdAndUpdate(
+            topicId,
+            { $pull: { reply: { _id: replyId } } },
+            { new: true }
+        ).populate("reply.owner", "username profileImage _id");
+
+        res.status(200).json({
+            message: "Reply deleted successfully!",
+            updatedForum,
+        });
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({ errorMessage: "Error deleting reply." });
+    }
+});
 
 module.exports = router;

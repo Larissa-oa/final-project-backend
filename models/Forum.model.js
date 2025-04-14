@@ -42,7 +42,7 @@ reply: [
       },
     },
   ],
-})
+}, {timestamps: true})
 
 const ForumModel = model( "forum", ForumSchema)
 module.exports = ForumModel
