@@ -15,6 +15,25 @@ router.get("/all-mush", async (req, res) =>{
     }
 })
 
+//*********************GET MUSHROOMS BY  ID***************************/
+
+
+router.get("/type/:mushroomId", async (req, res) => {
+    const { mushroomId } = req.params;
+    try {
+        const selectedMushroom = await MushroomModel.findById(mushroomId);
+        
+        if (!selectedMushroom) {
+            return res.status(404).json({ errorMessage: "Mushroom not found!" });
+        }
+        console.log(selectedMushroom);
+        res.status(200).json(selectedMushroom);
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ errorMessage: "Having problems to show that Mushroom!" });
+    }
+});
+
 //******************CREATE A MUSHROOM******************
 
 router.post("/create-mush", async (req,res) =>{
