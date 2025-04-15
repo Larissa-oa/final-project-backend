@@ -33,7 +33,10 @@ const typesRoutes = require("./routes/type.routes")
 app.use("/types", typesRoutes);
 
 const chatbotRoutes = require("./routes/chatbot.routes")
-app.use("/chat", chatbotRoutes) //added with chatbot
+app.use("/chat", chatbotRoutes) 
+
+const messageRoutes = require("./routes/message.routes")
+app.use("/message", messageRoutes)
 
 
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes

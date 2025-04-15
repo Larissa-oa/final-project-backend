@@ -70,10 +70,14 @@ router.get("/profile/:userId", (req, res) => {
     })
 })
 
-router.get("/verify", isAuthenticated,  async (req, res) => {
-console.log("in the verify route")
-res.status(200).json({message: "token is valid", payload: req.payload})
-})
+router.get("/verify", isAuthenticated, async (req, res) => {
+    try {
+      const user = await UserModel.findById(req.payload._id).select("username email profileImage");
+      res.status(200).json({ payload: user });
+    } catch (err) {
+      res.status(500).json({ message: "User verification failed." });
+    }
+  });
    
 
 
