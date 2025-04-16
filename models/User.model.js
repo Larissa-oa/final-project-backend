@@ -25,6 +25,18 @@ const UserSchema = new Schema(
   },
   {    
     timestamps: true
+  },
+  {
+    favorites:{
+      type:Schema.Types.ObjectId,
+      ref: "Favorites",
+    }
+  },
+  {
+    created_topics:{
+      type:Schema.Types.ObjectId,
+      ref: "Topics",
+    }
   }
 );
 

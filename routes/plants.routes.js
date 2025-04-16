@@ -63,4 +63,4 @@ router.delete("/delete-plant/:plantId", async (req,res)=>{
         res.status(500).json({errorMessage: "Problems deleting the chosen plant"})
     }
 })
-module.exports = router;
+module.exports = router; 
