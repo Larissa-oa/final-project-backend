@@ -6,6 +6,8 @@ const {isAuthenticated} = require("../middlewares/jwt.middleware")
 const PlantModel = require("../models/Plants.model");
 const MushroomModel = require("../models/Mushrooms.model");
 const FavoritesModel = require("../models/Favorites.model");
+const ForumModel = require ("../models/Forum.model");
+
 
 router.post("/signup", async (req, res) => {
     const salt = bcryptjs.genSaltSync(12);
@@ -85,6 +87,7 @@ router.get("/verify", isAuthenticated, async (req, res) => {
   const modelMap = {
     Plant: PlantModel,
     Mushroom: MushroomModel,
+    Forum: ForumModel,
   };
   
   router.post("/adding", isAuthenticated, async (req, res) => {
@@ -106,6 +109,10 @@ router.get("/verify", isAuthenticated, async (req, res) => {
     }
   });
   
+
+  router.get("/test", (req,res)=>{
+    res.json({message: "all good"})
+  })
   /*GET FAVORITES*/
   router.get("/user-favorites", isAuthenticated, async (req, res) => {
     try {
@@ -129,8 +136,8 @@ router.get("/verify", isAuthenticated, async (req, res) => {
             _id: fav._id,
             itemType,
             item: {
-              ...item.toObject(),     // Convert Mongoose doc to plain object
-              type: itemType,         // 🔥 Add this so frontend gets it
+              ...item.toObject(),
+              type: itemType,     
             },
           };
         })

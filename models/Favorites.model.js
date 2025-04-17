@@ -9,7 +9,7 @@ const favoritesSchema = new mongoose.Schema({
   itemType: {
     type: String,
     required: true,
-    enum: ['Plant', 'Mushroom'],
+    enum: ['Plant', 'Mushroom', 'Forum'],
   },
   user_id: {
     type: mongoose.Schema.Types.ObjectId,
