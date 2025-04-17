@@ -25,7 +25,6 @@ author: {
     type: Schema.Types.ObjectId,
     ref: "User"
 },
-
 reply: [
     {
       text: {
