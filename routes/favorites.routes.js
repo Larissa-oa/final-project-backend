@@ -6,7 +6,7 @@ const express = require("express");
 const router = express.Router();
 const { isAuthenticated } = require("../middlewares/jwt.middleware");
 
-// Map itemType to the correct model
+
 const modelMap = {
   Plant: PlantModel,
   Mushroom: MushroomModel,
@@ -31,19 +31,20 @@ router.post("/adding", isAuthenticated, async (req, res) => {
   }
 });
 
+/*GET FAVORITES*/
 router.get("/user-favorites", isAuthenticated, async (req, res) => {
   try {
     const userId = req.payload._id;
 
     const favorites = await FavoritesModel.find({ user_id: userId });
-console.log("Fetched favorites:", favorites); // 👈 Add this line
-const populatedFavorites = await Promise.all(
+    console.log("Fetched favorites:", favorites); 
+    const populatedFavorites = await Promise.all(
     favorites.map(async (fav) => {
-      const { itemType } = fav;
+    const { itemType } = fav;
   
-      if (!itemType || !modelMap[itemType]) {
+    if (!itemType || !modelMap[itemType]) {
         console.warn(`Skipping favorite with unknown itemType: ${itemType}`, fav);
-        return null; // 👈 skip it
+        return null; 
       }
   
       const Model = modelMap[itemType];
