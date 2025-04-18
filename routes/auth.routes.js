@@ -175,33 +175,5 @@ router.get("/verify", isAuthenticated, async (req, res) => {
 
   //location search 
 
-  router.get("/location/search", async (req, res) => {
-    const query = req.query.q;
-    
-    if (!query) {
-      return res.status(400).json({ error: 'Query parameter "q" is required' });
-    }
-  
-    try {
-      const response = await axios.get('https://nominatim.openstreetmap.org/search', {
-        params: {
-          format: 'json',
-          q: query,
-          addressdetails: 1,
-          limit: 1
-        }
-      });
-  
-      if (response.data && response.data.length > 0) {
-        // Send lat and lon if data is found
-        const place = response.data[0];
-        res.json({ lat: place.lat, lon: place.lon });
-      } else {
-        res.status(404).json({ error: 'Location not found' });
-      }
-    } catch (error) {
-      console.error("Error fetching location data:", error);
-      res.status(500).json({ error: 'Failed to fetch location data' });
-    }
-  });
+ 
 module.exports = router 
