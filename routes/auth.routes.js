@@ -109,10 +109,6 @@ router.get("/verify", isAuthenticated, async (req, res) => {
     }
   });
   
-
-  router.get("/test", (req,res)=>{
-    res.json({message: "all good"})
-  })
   /*GET FAVORITES*/
   router.get("/user-favorites", isAuthenticated, async (req, res) => {
     try {

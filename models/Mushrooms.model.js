@@ -1,4 +1,3 @@
-
 const { Schema, model } = require("mongoose");
 
 
@@ -35,4 +34,3 @@ const MushroomSchema = new Schema(
 const MushroomModel = model("Mushroom", MushroomSchema);
 
 module.exports = MushroomModel;
-
