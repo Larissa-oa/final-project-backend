@@ -7,7 +7,7 @@ const PlantModel = require("../models/Plants.model");
 const MushroomModel = require("../models/Mushrooms.model");
 const FavoritesModel = require("../models/Favorites.model");
 const ForumModel = require ("../models/Forum.model");
-
+const axios = require("axios");
 
 router.post("/signup", async (req, res) => {
     const salt = bcryptjs.genSaltSync(12);
@@ -168,4 +168,8 @@ router.get("/verify", isAuthenticated, async (req, res) => {
       res.status(500).json({ errorMessage: "Error removing favorite." });
     }
   });
+
+  //location search 
+
+ 
 module.exports = router 
